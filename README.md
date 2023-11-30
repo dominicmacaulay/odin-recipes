@@ -1,0 +1,1 @@
+I have gotten to know how to make a basic website using html!! This has been very fun to learn and I am excited to do more and more. I have plans to make this my career and it is relieving to know that I am picking it up quickly and having a lot of fun doing it.
