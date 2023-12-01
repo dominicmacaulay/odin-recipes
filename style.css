@@ -1,10 +1,29 @@
-*{
-    text-align: center;
-    font-size: 24px;
-}
-
 body{
     font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+
+    margin: 16px, auto;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-list{
+    display:block;
+    list-style: circle;
+}
+
+.ingredients{
+    border: 1px solid gray;
+    margin: 10px;
+    padding: auto;
+    font-size: 20px;
+    text-align: center;
 }
 
 li{
@@ -13,9 +32,12 @@ li{
     text-align: left;
 }
 
-#link-list{
-    text-align: left;
-    font-size: 38px;
+h1{
+    background: pink;
+    padding: 0, 0;
+    margin: 0;
+    margin-bottom:25px;
+    border-bottom: 5px dotted red;
 }
 
 h2{
@@ -26,4 +48,22 @@ h2{
 
 .description{
     background-color:yellow;
+}
+
+p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+#be, #not-be{
+    display: inline-block;
+    border: 2px solid green;
+    font-size: 26px;
+    padding: 5px;
+}
+
+.d-text{
+    border-top: 5px double blue;
 }
